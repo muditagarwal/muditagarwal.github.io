@@ -1,1 +1,271 @@
-<h1>Hello World</h1>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="mudit agarwal portfolio for android developer">
+		<meta name="author" content="muditagarwal">
+		<!-- for parallax scrolling -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+		<script src="js/skrollr.js"></script>
+		<script src="js/_main.js"></script>
+		<!-- for parallax scrolling end-->
+		
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+		<style type="text/css">
+		.navbar-nav li a {
+		line-height: 50px;
+		}
+		body{
+		font-family: 'Roboto', serif;
+		}
+		blockquote {
+		border-left: 10px solid #fff;
+		margin: 1.5em 10px;
+		padding: 0.5em 10px;
+		quotes: "\201C""\201D""\2018""\2019";
+		}
+		blockquote:before {
+		color: #fff;
+		content: open-quote;
+		font-size: 4em;
+		line-height: 0.1em;
+		margin-right: 0.25em;
+		vertical-align: -0.4em;
+		}
+		blockquote p {
+		display: inline;
+		}
+		.header {
+		color: #36A0FF;
+		font-size: 27px;
+		padding: 10px;
+		}
+		.bigicon {
+		font-size: 35px;
+		color: #36A0FF;
+		}
+		blockquote small{
+			color:#f0f0f0;
+		}
+		.vertical-center {
+		min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+		min-height: 100vh; /* These two lines are counted as one :-)       */
+		display: flex;
+		align-items: center;
+		}
+		.home{
+			background-image: url('imgs/home-bg.jpg');
+			background:#d80056;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			color:white;
+			height: 100%;
+		}
+		
+		.workex{
+			background-image: url('imgs/work-ex-bg.jpg');
+			background:#fab74b;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			color:white;
+			margin-top: -30px;
+			padding-top: 80px;
+		}
+		.recommendation{
+			background-image: url('imgs/recommendation.jpg');
+			background:#81b839;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			padding-top: 80px;
+			margin-top: -30px;
+			color:white;
+		}
+		.portfolio{
+			background-image: url('imgs/portfolio.jpg');
+			background:#0288a6;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			height: 100%;
+			margin-top: -30px;
+			padding-top: 80px;
+			color:white;
+		}
+		.contact{
+			background-image: url('imgs/contact.jpg');
+			background:#f23535;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			color:white;
+			margin-top: -30px;
+			margin-bottom: -30px;
+		}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href=""><img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/8/005/063/3c3/1d0aaba.jpg" class="img-rounded" style="width:50px"></a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="height:80px;">
+					
+					<ul class="nav navbar-nav navbar-right navbar-vertical-center">
+						<li><a href="#home" id="home_nav">Home</a></li>
+						<li><a href="#workexp" id="workex_nav">Work Experince</a></li>
+						<li><a href="#recommendation">Recommendations</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+					</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+				<!--home start -->
+				
+				<div id="home" class="jumbotron home vertical-center">
+					<div  class="container">
+						<h1 class="text text-center">Tech Lead, Mobile Engineering at Novopay</h1>
+						<p class="lead text text-center" style="margin-top:40px;">I have been working in top most mobile application development companies for past 6 years and now I am working as a Technical Lead, Mobile Engineering at Novopay. I have developed several apps and out of which 3 apps got featured on Google Play Store.</p>
+					</div>
+				</div>
+				<!--home end -->
+				
+				<!-- workex start-->
+				<div id="workexp" class="jumbotron workex">
+					<div  class="container">
+						<div  class="row" >
+							<div class="col-md-4">
+								<h2>Technical Lead at Novopay</h2>
+								<p>I work on an exciting Android powered solution to help the mass Indian market carry out multiple forms of digital payments.
+									<br/><br/>
+								My role as tech lead at novopay requires me to design and lead the development efforts for all novopay mobile apps.</p>
+								<p><a class="btn btn-default" href="http://novopay.in" target="_blank" role="button">Visit Company Website &raquo;</a></p>
+							</div>
+							<div class="col-md-4">
+								<h2>Software Engineer at Khosla Labs</h2>
+								<p>Along with a team of entrepreneurs, I was instrumental in incubating one of India's upcoming startups in the financial sector - 'Novopay'.
+									<br/><br/>
+								Experimenting with core technologies such as Android, third party OEM device integration and web are key aspects of my role.</p>
+								<p><a class="btn btn-default" href="http://khoslalabs.com" target="_blank" role="button">Visit Company Website &raquo;</a></p>
+							</div>
+							<div class="col-md-4">
+								<h2>Module Lead at Q3 Technologies</h2>
+								<p>I work as a module lead for android apps. My roles included:
+									- Requirement Gathering and estimation.
+									- Client communication and basic level consulting.
+									- Lead the team of developers and follow the standard coding practices
+								- Work with Quality Assurance team for the best build quality.</p>
+								<p><a class="btn btn-default" href="http://q3tech.com" target="_blank" role="button">Visit Company Website &raquo;</a></p>
+							</div>
+						</div>
+						<div  class="row" >
+							<div class="col-md-4">
+								<h2>Software Engineer at Sourcebits</h2>
+								<p>I worked on global Android apps to help the mass Indian market carry out multiple forms of digital payments.
+									<br/>
+								My role as tech lead at novopay requires me to design and lead the development efforts for all novopay mobile apps.</p>
+								<p><a class="btn btn-default" href="http://sourcebits.com" target="_blank" role="button">Visit Company Website &raquo;</a></p>
+							</div>
+							<div class="col-md-4">
+								<h2>Lead Android Developer at NewgenApps</h2>
+								<p>I was a lead android application developer. My roles included working on wordpress CMS and other cloud computing related technologies.
+									<br/>
+								Experimenting with core technologies such as Android, third party are key aspects of my role.</p>
+								<p><a class="btn btn-default" href="http://newgenapps.com" target="_blank" role="button">Visit Company Website &raquo;</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- workex end-->
+				<!-- Recommendation start-->
+				<div id="recommendation" class="jumbotron recommendation">
+					<div  class="container">
+						<div  class="row" >
+							<div class="col-md-4">
+								<h3>Piyush Jain, VP - Global Delivery</h3>
+								<blockquote><p>"Mudit was the best android resource in the team. He had a clear visibility on tasks to perform and roadblocks that can be encountered. He was a great help to his project manager in planning and executing the projects successfully. Having Mudit in the project, was a relief to everyone that success is not far away."</p><p><small>January 18, 2014, Piyush managed Mudit indirectly at Q3 technologies</small></p></blockquote>
+								<p><a class="btn btn-default" href="https://www.linkedin.com/in/piyushj7" target="_blank" role="button">Visit Linkedin Profile &raquo;</a></p>
+							</div>
+							<div class="col-md-4">
+								<h3>Varun Verma, Project Lead</h3>
+								<blockquote><p>"Mudit is a very dynamic and hard-working fellow. He thinks out of the box and has excellent problem solving skills. A very good team player and proficient in all phases of project development."</p><p><small>March 4, 2014, Varun managed Mudit at Q3 technologies</small></p></blockquote>
+								<p><a class="btn btn-default" href="https://www.linkedin.com/in/varun-verma-90788b13" target="_blank" role="button">Visit Linkedin Profile &raquo;</a></p>
+							</div>
+							<div class="col-md-4">
+								<h3>Parthasaradhi Pantra, Application Architect</h3>
+								<blockquote><p>"I worked with Mudit over the past 7 months to help us develop Android mobile apps. He is a pleasure to work with and most importantly someone I can trust. He's also very knowledgeable about what can be done with technology and always looks for ways to push it to get the best results. I highly recommend him!"</p><p><small>September 23, 2012, Parthasaradhi was Mudit's client</small></p></blockquote>
+								<p><a class="btn btn-default" href="https://www.linkedin.com/in/pantra" target="_blank" role="button">Visit Linkedin Profile &raquo;</a></p>
+							</div>
+							
+						</div>
+						<div  class="row" >
+							<div class="col-md-6">
+								<h3>Anurag Rastogi, Co-founder and CEO</h3>
+								<blockquote><p>"Mudit was one of the first employees at NewGenApps Lucknow and he started his career here.
+									He was instrumental in taking over tough projects and building our world class Android competencies further. He shared our passion and dreams to build a world class company and we are proud of the fact that he helped us do that. He proved to be an excellent developer handling multiple projects and delivering on them.
+									With maturity and commitment he will be an asset to any team he is part of and we are proud to have had him as part of our team"</p><p><small>October 3, 2012, Anurag managed Mudit at New Generation Applications Pvt Ltd</small></p></blockquote>
+									<p><a class="btn btn-default" href="https://www.linkedin.com/in/anuragrastogi1" target="_blank" role="button">Visit Linkedin Profile &raquo;</a></p>
+								</div>
+								<div class="col-md-6">
+									<h3>Amit Pandey, Partner</h3>
+									<blockquote><p>"Mudit worked with us in Android team at Sourcebits and was very focused and effective in all his work. Has got excellent skills in Android and Java related technologies and has handled some of the very complex development products with great ease and grace. Proactive, very responsible and a great person to have in the team. An asset for any team or organization he works for. Would love to hire him again."</p><p><small>January 3, 2015, Amit managed Mudit indirectly at Sourcebits LLC</small></p></blockquote>
+									<p><a class="btn btn-default" href="https://www.linkedin.com/in/amitpandey8" target="_blank" role="button">Visit Linkedin Profile &raquo;</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- recommendation end-->
+				<!-- portfolio start -->
+				<div id="portfolio" class="jumbotron portfolio">
+					<div  class="container">
+						<h1 class="text text-center">Portfolio will come here</h1>
+						<p class="lead text text-center" style="margin-top:40px;">Coming Soon!</p>
+					</div>
+				</div>
+				<!-- portfolio end -->
+				<!-- contact start -->
+				<div class="jumbotron contact">
+					<div class="container" id="contact">
+						<div class="col-md-2 col-md-offset-3">
+							<p><a class="btn btn-default" href="mailto:mudit.agar@gmail.com" target="_blank" role="button"><i class="fa fa-envelope"></i> Mail me</a></p>
+						</div>
+						<div class="col-md-2">
+							<p><a class="btn btn-default" href="https://github.com/muditagarwal" target="_blank" role="button"><i class="fa fa-github"></i> Github</a></p>
+						</div>
+						<div class="col-md-2">
+							<p><a class="btn btn-default" href="https://in.linkedin.com/in/muditagarwal25" target="_blank" role="button"><i class="fa fa-1x  fa-linkedin-square"></i> Linkedin</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer" style="background: #101010; margin-bottom:-40px;">
+				<div class="container" style="display: inline;">
+					<p class="text text-center" style="color:white; height:20px;">Copyright © muditagarwal.github.io 2015. All Rights Reserved</p>
+				</div>
+			</footer>
+		</body>
+	</html>
