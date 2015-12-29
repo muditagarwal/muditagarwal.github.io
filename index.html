@@ -115,6 +115,23 @@
 			margin-bottom: -30px;
 		}
 		</style>
+		<script>
+		
+		$(function() {
+    
+    $(".button").on("click", function( e ) {
+        
+        e.preventDefault();
+    
+        $("body, html").animate({ 
+            scrollTop: $( $(this).attr('href') ).offset().top 
+        }, 600);
+        
+    });
+        
+});
+
+		</script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -134,11 +151,11 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="height:80px;">
 					
 					<ul class="nav navbar-nav navbar-right navbar-vertical-center">
-						<li><a href="#home" id="home_nav">Home</a></li>
-						<li><a href="#workexp" id="workex_nav">Work Experince</a></li>
-						<li><a href="#recommendation">Recommendations</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a class="button" href="#home">Home</a></li>
+						<li><a class="button" href="#workexp">Work Experince</a></li>
+						<li><a class="button" href="#recommendation">Recommendations</a></li>
+						<li><a class="button" href="#portfolio">Portfolio</a></li>
+						<li><a class="button" href="#contact">Contact</a></li>
 					</ul>
 					</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
